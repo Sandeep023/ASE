@@ -155,3 +155,6 @@ plt.imshow(images3[1])
 number_of_white_pix = np.sum(images3[1] > 0)
 plt.axis('off')
 plt.title("Face Detection, \nwith white pixels: " + str(number_of_white_pix))
+
+
+plt.show()
